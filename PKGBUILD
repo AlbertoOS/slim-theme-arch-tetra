@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Maintainer: Alberto Oliveira <orkan.aos@gmail.com>
 pkgname=slim-theme-arch-tetra
 pkgver=1.1
@@ -9,6 +10,19 @@ license=('CCPL:cc-by-sa')
 depends=('artwiz-fonts')
 optdepends=('slim: login manager providing theme support')
 source=(http://github.com/AlbertoOS/${pkgname}/archive/v${pkgver}.tar.gz)
+=======
+# Maintainer: Jussi Timperi <jussi.timperi+arch@gmail.com>
+pkgname=slim-theme-arch-tetra
+pkgver=1.1
+pkgrel=1
+pkgdesc="Minimal Arch Linux SLiM theme"
+arch=('any')
+url="http://github.com/Beini/slim-theme-arch-tetra/"
+license=('CCPL:cc-by-sa')
+depends=('artwiz-fonts')
+optdepends=('slim: login manager providing theme support')
+source=(http://github.com/Beini/${pkgname}/archive/v${pkgver}.tar.gz)
+>>>>>>> b8353b5eb4fed1bcb79544944a28dd9fb8a28d0c
 md5sums=('d708c78968900d79a763be7fd6a5e187')
 
 package() {
